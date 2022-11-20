@@ -3,16 +3,15 @@ import styled from 'styled-components';
 export const Header = () => {
   return (
     <Nav>
-        <Logo src="./logo.png"/>
+        <Logo src="./logo1.png"/>
         <NavMenu>
+             <a>
+            < img src="./search-icon.svg"/>
+            <span>SEARCH</span>
+            </a>
             <a>
             < img src="./home-icon.svg"/>
             <span>HOME</span>
-            </a>
-
-            <a>
-            < img src="./search-icon.svg"/>
-            <span>SEARCH</span>
             </a>
 
             <a>
@@ -36,33 +35,35 @@ export const Header = () => {
   
  const Nav = styled.nav`
  height:70px;
- background:black;
  display:flex;
  align-items:center;
  ` 
 const Logo = styled.img`
-width:80px;
-height:60px;
+width:140px;
+height:50px;
+margin-left:20px;
 `
 const NavMenu  = styled.div`
 display:flex;
 flex:1;
-margin-left:25px;
+margin-left:500px;
 align-items:center;
 a{
     display:flex;
     align-items:center;
-    padding:0 12px;
+    padding:0 50px;
     cursor:pointer;
 
     img{
         height:20px;
+        opacity:60%;
     }
 
     span{
-        font-size:15px;
-        letter-spacing:1.42px;
+        font-size:16px;
+        letter-spacing:1.5px;
         position:relative;
+        opacity:60%;
         &:after{
             content:'';
             height:2px;
@@ -86,7 +87,8 @@ a{
 }
 `
 const UserImg = styled.img`
-width:48px;
-height:48px;
+margin-right:20px;
+width:38px;
+height:70px;
 cursor:pointer;
 `
