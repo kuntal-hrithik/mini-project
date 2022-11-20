@@ -10,12 +10,14 @@ import  Header  from './Components/Header';
 import styled from 'styled-components';
 import Home from './Components/Home';
 import Detail from './Components/Detail';
+import Login from './Components/Login';
 function App() {
   return (
    <div className='App'>
     <Router> 
     <Header></Header>
     <Routes>
+      <Route path="/login" element={<Login></Login>}></Route>
       <Route path="detail" element={<Detail></Detail>}>
       
       </Route>
@@ -23,8 +25,6 @@ function App() {
        
     </Routes>
     </Router> 
-    {/* <Header/>
-   <Home></Home>  */}
    </div>
   );
 }
