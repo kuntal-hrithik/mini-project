@@ -35,8 +35,11 @@ export const Header = () => {
  export default Header;
   
  const Nav = styled.nav`
+ z-index:10;
+ position:sticky;
+ top:0;
  height:70px;
- background:black;
+ background:#002244;
  display:flex;
  align-items:center;
  ` 
