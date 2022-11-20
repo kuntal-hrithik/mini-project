@@ -4,7 +4,7 @@ import styled from "styled-components";
 const Movies = () => {
   return (
     <Container>
-      <h4>Recommended for You!</h4>
+      <h2>Recommended for You!</h2>
       <Content>
         <Wrap>
           <img
@@ -61,7 +61,9 @@ const Movies = () => {
 
 export default Movies;
 
-const Container = styled.div``;
+const Container = styled.div`
+text-align:center;
+`;
 const Content = styled.div`
   display: grid;
   grid-gap: 25px;

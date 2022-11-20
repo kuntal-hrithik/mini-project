@@ -13,7 +13,7 @@ import Detail from './Components/Detail';
 function App() {
   return (
    <div className='App'>
-    <Router>
+    <Router> 
     <Header></Header>
     <Routes>
       <Route path="detail" element={<Detail></Detail>}>
@@ -22,9 +22,9 @@ function App() {
       <Route path="/" element={<Home/>}/>
        
     </Routes>
-    </Router>
-   {/* <Header/>
-   <Home></Home> */}
+    </Router> 
+    {/* <Header/>
+   <Home></Home>  */}
    </div>
   );
 }
