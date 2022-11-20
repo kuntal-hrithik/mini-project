@@ -31,7 +31,7 @@ const Container = styled.div`
         background-position:top;
         background-size: cover;
         background-repeat: no-repeat;
-        background-image:url("./images/login-background.jpg");
+        background-image:url("./images/360_F_308131267_unLRF2JmPsjjXgrMRaFA3aEnrKa9aUxK.jpg");
         position:absolute;
         content:"";
         top:0;
