@@ -52,7 +52,7 @@ const Background = styled.div`
   bottom: 0;
   right: 0;
   z-index: -1;
-  opacity: 0.8;
+  opacity: 0.6;
   img {
     width: 100%;
     height: 100%;
@@ -65,6 +65,7 @@ const ImageTitle = styled.div`
   min-width: 200px;
   height: 30vh;
   width: 35vw;
+  margin-top:60px;
   h2 {
     font-size: 3.2rem;
   }
@@ -90,11 +91,13 @@ const PlayButton = styled.button`
     background: rgb(198, 198, 198);
   }
 `;
-const TrailerButton = styled.button`
+const TrailerButton = styled(PlayButton)`
   background: rgba(0, 0, 0, 0.3);
   border: 1px solid rgb(249, 249, 249);
   color: rgb(249, 249, 249);
   text-transform: uppercase;
+  text-align:center;
+
 `;
 
 const AddButton = styled.button`
@@ -126,10 +129,9 @@ const SubTitle = styled.div`
   margin-top: 26px;
 `;
 const Description = styled.div`
-line-height:1.4;
-font-size:20px;
-margin-top:16px;
-color:rgb(249,249,249);
-
+  line-height: 1.4;
+  font-size: 25px;
+  margin-top: 16px;
+  color: rgb(249, 249, 249);
+  max-width: 600px;
 `;
-
