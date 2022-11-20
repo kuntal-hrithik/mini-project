@@ -63,6 +63,9 @@ export default Movies;
 
 const Container = styled.div`
 text-align:center;
+h2{
+  margin:5%;
+}
 `;
 const Content = styled.div`
   display: grid;

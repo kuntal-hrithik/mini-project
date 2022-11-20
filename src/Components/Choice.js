@@ -5,7 +5,10 @@ const Choice = () => {
   return (
     <Container>
             <Wrap>
-                <h2>Action</h2>
+                {/* <h2>Action</h2> */}
+                <Wrapper>
+                     <h2>Action</h2> 
+                </Wrapper>
             </Wrap>
             <Wrap>
                 <h2>Romance</h2>
@@ -35,6 +38,10 @@ grid-template-columns:repeat(5,minmax(0,1fr));
 `
 
 const Wrap = styled.div`
+background:#002244;
+width:100%;
+height:100%;
+object-fit:cover;
 cursor:pointer;
 border-radius:10px;
 border:3px solid rgba(249,249,249,0.1);
@@ -54,3 +61,13 @@ text-align:center;
 
     }
 `
+
+const Wrapper=styled.div`
+
+img{
+width:100%;
+height:100%;
+object-fit:cover;
+}
+`;
+
