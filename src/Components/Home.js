@@ -2,11 +2,13 @@ import React from 'react'
 import styled from 'styled-components'
 import ImgSlider from './ImgSlider'
 import Choice from './Choice'
+import Movies from './Movies'
 const Home = () => {
   return (
     <Container>
         <ImgSlider/>
         <Choice/>
+        <Movies></Movies>
     </Container>
   )
 }
