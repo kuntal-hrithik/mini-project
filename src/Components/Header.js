@@ -38,7 +38,9 @@ export const Header = () => {
  position:sticky;
  top:0;
  height:70px;
+
  width:100vw;
+
  background:#002244;
  display:flex;
  align-items:center;
