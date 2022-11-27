@@ -7,21 +7,21 @@ export const Header = () => {
         <NavMenu>
              <a>
             < img src="./search-icon.svg"/>
-            <span>SEARCH</span>
+            <Text> Search  </Text>
             </a>
             <a>
             < img src="./home-icon.svg"/>
-            <span>HOME</span>
+            <Text> Home  </Text>
             </a>
 
             <a>
             < img src="./home-icon.svg"/>
-            <span>MOOD</span>
+            <Text>Mood</Text>
             </a>
 
             <a>
             < img src="./watchlist-icon.svg"/>
-            <span>WATCH LIST</span>
+            <Text> Watch List</Text>
             </a>
 
 
@@ -38,10 +38,13 @@ export const Header = () => {
  position:sticky;
  top:0;
  height:70px;
+
+ width:100vw;
+
  background:#002244;
  display:flex;
  align-items:center;
- ` 
+ `  
 const Logo = styled.img`
 width:140px;
 height:50px;
@@ -96,3 +99,6 @@ width:38px;
 height:70px;
 cursor:pointer;
 `
+const Text = styled.div`
+color:white
+`;

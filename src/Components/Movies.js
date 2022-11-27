@@ -64,6 +64,7 @@ export default Movies;
 const Container = styled.div`
 text-align:center;
 h2{
+  color:white;
   margin:5%;
 }
 `;

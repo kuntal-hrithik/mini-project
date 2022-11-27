@@ -5,13 +5,12 @@ const Choice = () => {
   return (
     <Container>
             <Wrap>
-                {/* <h2>Action</h2> */}
                 <Wrapper>
                      <h2>Action</h2> 
                 </Wrapper>
             </Wrap>
             <Wrap>
-                <h2>Romance</h2>
+           <h2>Romance</h2>
             </Wrap>
             <Wrap>
                 <h2>Thriller</h2>
@@ -49,7 +48,8 @@ box-shadow: rgb(0 0 0 / 69%) 0px 26px 30px -10px, rgb(0 0 0 / 73%) 0px 16px 10px
 transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
 
 text-align:center;
-    h2{
+    h2 {
+        color:white;
         text-align:center;
         width:100%;
         height:100%;
@@ -70,4 +70,3 @@ height:100%;
 object-fit:cover;
 }
 `;
-
